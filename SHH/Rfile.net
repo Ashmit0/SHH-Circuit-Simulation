@@ -1,0 +1,54 @@
+*SSH circuit netlist with N = 20 
+
+*sources
+I1 1 10 AC 20
+
+*capacitors
+Cb1 1 0  1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C1 1 2 1e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C2 2 3 1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C3 3 4 1e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C4 4 5 1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C5 5 6 1e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C6 6 7 1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C7 7 8 1e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C8 8 9 1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C9 9 10 1e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C10 10 11 1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C11 11 12 1e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C12 12 13 1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C13 13 14 1e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C14 14 15 1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C15 15 16 1e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C16 16 17 1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C17 17 18 1e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C18 18 19 1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+C19 19 20 1e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+Cb2 20  0  1.6666666666666668e-07 Rser=0 Lser=0 Rpar=0 Cpar=0
+
+ *inductors
+L1 1 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L2 2 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L3 3 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L4 4 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L5 5 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L6 6 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L7 7 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L8 8 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L9 9 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L10 10 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L11 11 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L12 12 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L13 13 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L14 14 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L15 15 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L16 16 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L17 17 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L18 18 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L19 19 0 1e-05 Rser=0 Rpar=0 Cpar=0
+L20 20 0 1e-05 Rser=0 Rpar=0 Cpar=0
+
+*Directive
+ .AC lin 220000 77969.68012336762 116954.52018505141
+ * directive 
+.end

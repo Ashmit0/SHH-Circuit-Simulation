@@ -1,0 +1,4 @@
+plot1-> N = 20 
+plot2 -> t = 0.2
+plot3 -> t = 0.2 
+plot4 ->  
